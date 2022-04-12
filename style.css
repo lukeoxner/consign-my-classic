@@ -5,6 +5,15 @@
     background-position: center;
 }
 
+.info-tiles-container {
+    background-color: #1B2935;
+    color: rgb(226, 226, 226);
+}
+
+.tile-img {
+    height: 300px;
+}
+
 @media only screen and (max-width: 1500px) {
     .hero {
         height: 450px;
