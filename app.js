@@ -6,7 +6,7 @@ const vehicleEl = form.elements['vehicle'];
 form.addEventListener('submit', sendEmail);
 
 function sendEmail(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	const name = nameEl.value;
 	const phone = phoneEl.value;
 	const vehicle = vehicleEl.value;
