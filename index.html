@@ -24,7 +24,7 @@
         <div class="container py-5">
             <div class="row d-flex align-items-center my-3">
                 <div class="col-12 col-md-5 mx-auto">
-                    <img src="./images/mustang.jpg" alt="mustange" class='tile-img'>
+                    <img src="./images/mustang.jpg" alt="mustange" class='tile-img img-fluid'>
                 </div>
                 <div class="col-12 col-md-5 mx-auto">
                     <h2 class='text-center mb-4'>Selling, Without the Hassle</h2>
@@ -38,13 +38,13 @@
                     <p class='fs-5'>Every car we consign receives a full detail inside & out, and then undergoes a professional photoshoot that highlights all the details that make your car special and desirable to buyers. We then market the car through our extensive advertising network, getting it in front of tens of thousands of qualified buyers across the country (and even the world!)</p>
                 </div>
                 <div class="col-12 col-md-5 mx-auto">
-                    <img src="./images/lark.jpg" alt="studebaker-lark" class='tile-img'>
+                    <img src="./images/lark.jpg" alt="studebaker-lark" class='tile-img img-fluid'>
                 </div>
             </div>
             <br>
             <div class="row d-flex align-items-center my-3">
                 <div class="col-12 col-md-5 mx-auto">
-                    <img src="./images/pickup.jpg" alt="chevy-pickup" class='tile-img'>
+                    <img src="./images/pickup.jpg" alt="chevy-pickup" class='tile-img img-fluid'>
                 </div>
                 <div class="col-12 col-md-5 mx-auto">
                     <h2 class='text-center mb-4'>Financing and Transportation</h2>
@@ -52,6 +52,35 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row d-flex justify-content-around">
+            <div class="col-10 col-md-5">
+                <h1>Ready to learn more?</h1>
+                <h3>Fill out our simple contact form and we'll get in touch!</h3>
+            </div>
+
+            <div class="col-10 col-md-5">
+                <form action="mailto:consignmyclassic@conquestcc.com"
+                    method="POST"
+                    enctype="multipart/form-data"
+                    name="EmailForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <textarea class="form-control" id="name" rows="1" placeholder='John Doe'></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <textarea class="form-control" id="phone" placeholder="555-555-5555" rows="1"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="vehicle" class="form-label">Vehicle Details</label>
+                        <textarea class="form-control" id="vehicle" rows="3" placeholder='Year, make, model, condition, etc'></textarea>
+                    </div>
+                    <button type="submit" value="Submit" class='btn form-button'>Submit Inquiry</button>
+                </form>
+            </div>    
     </div>
     
 

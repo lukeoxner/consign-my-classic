@@ -11,7 +11,12 @@
 }
 
 .tile-img {
-    height: 350px;
+    max-height: 350px;
+}
+
+.form-button {
+    background-color: #1B2935;
+    color: #fff;
 }
 
 @media only screen and (max-width: 1500px) {
