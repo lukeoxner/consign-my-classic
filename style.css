@@ -15,8 +15,13 @@
 }
 
 .form-button {
-    background-color: #1B2935;
+    background-color: #2a4053;
     color: #fff;
+}
+
+#conquest-link {
+    /* text-decoration: none; */
+    color: #181f6a;
 }
 
 @media only screen and (max-width: 1500px) {
